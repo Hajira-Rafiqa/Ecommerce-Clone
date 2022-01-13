@@ -1,0 +1,1 @@
+export const phoneRegEx = /^[6-9]\d{9}$/;

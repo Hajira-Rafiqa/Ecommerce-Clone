@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.faqRow {
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto 40px;
+  max-width: 70%;
+  font-size: 25px;
+  @media only screen and (max-width: 768px) {
+    max-width: 90%;
+  }
+}
+
+img 
+  {
+    width: 30px;
+  }
+.answerWrapper 
+{
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+span 
+{
+      display: inline-block;
+      margin-top: 8px;
+      font-size: 25px;
+}

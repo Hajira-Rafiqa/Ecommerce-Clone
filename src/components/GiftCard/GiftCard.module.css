@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
+
+.giftCard 
+{
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 10px 10px;
+  position: relative;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05), 0 15px 40px rgba(166, 173, 201, 0.2);
+
+  @media only screen and (max-width: 768px) 
+  {
+    max-width: 90%;
+    padding: 40px 30px;
+  }
+}
+
+.giftCard__background--1 
+{
+      width: 25%;
+      position: absolute;
+      right: 0;
+      top: -40px;
+      @media only screen and (max-width: 1024px)
+      {
+        top: -25px;
+      }
+      @media only screen and (max-width: 768px)
+      {
+        top: -10px;
+      }
+}
+.giftCard__background--2 
+{
+      width: 25%;
+      position: absolute;
+      bottom: -40px;
+      left: 0;
+      
+      @media only screen and (max-width: 1024px) 
+      {
+        bottom: -25px;
+      }
+      @media only screen and (max-width: 768px) 
+      {
+        bottom: -10px;
+      }
+}
+
+.giftCard__img--paytm 
+{
+    width: 100px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.giftCard__textWrapper 
+{
+    max-width: max-content;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    font-family: 'Licorice', cursive;
+    background-image: -webkit-linear-gradient(315deg, #fce043 0%, #fb7ba2 74%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+div > h2 {
+      font-size: 84px;
+      margin-top: 1px;
+      margin-bottom: 10px;
+      @media only screen and (max-width: 768px) {
+        font-size: 30px;
+      }
+    }
+
+div > h2:nth-of-type(2) 
+{
+      margin-left: 1px;
+      margin-bottom: 1px;
+}
+
+div:nth-of-type(2) 
+{
+      display: flex;
+      align-items: end;
+      font-size: 30px;
+}
+
+span:last-of-type 
+{
+        font-size: 100px;
+        font-weight: bold;
+        line-height: 70%;
+        @media only screen and (max-width: 768px) 
+        {
+          font-size: 84px;
+        }
+}
